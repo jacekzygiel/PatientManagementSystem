@@ -1,6 +1,6 @@
-import { dependentAddedMostRecently, adultDependentAddedMostRecently, underageDependentsReportGenerator } from '@functions/index';
+import { dependentAddedMostRecently, adultDependentAddedMostRecently, underageDependentsReportGenerator } from '@functions';
 
-import { testPatientA, testPatientB } from '@testData/index';
+import { testPatientA, testPatientB } from '@testData';
 
 function main() {
     // Example use of the functions
