@@ -1,0 +1,24 @@
+{
+  "name": "pelago",
+  "version": "1.0.0",
+  "description": "Functions for Client Domains and tests",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest --config jest.config.ci.ts",
+    "test:recentDependent": "jest mostRecentlyAddedDependent.test.ts",
+    "test:lastAdult": "jest lastAdultDependentAdded.test.ts",
+    "test:underageDependentReport": "jest underageDependentsReport.test.ts"
+  },
+  "author": "Jacek Zygiel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "jest-html-reporter": "^3.10.2",
+    "jest-junit": "^16.0.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
