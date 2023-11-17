@@ -32,12 +32,12 @@ tsc
 ```
 Run the compiled JavaScript file:
 ```bash
-node dist/main.js
+node dist/index.js
 ```
 For development, you can run TypeScript files directly using ts-node:
 
 ```bash
-npx ts-node src/main.ts
+npx ts-node src/index.ts
 ```
 
 ## Testing
