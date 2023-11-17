@@ -65,8 +65,10 @@ Test data is located in test/testData directory.
 
 ### Test Reporters
 There are two test reporters available:
-- jest-html-reporter - generates test report in html format, which is human-readable.
+- jest-html-reporter - generates test report in html format, which is human-readable. 
+Used while running tests with `npm run test`
 - jest-junit - generate test report in XML format. XML report is more sufficient for CI/CD systems.
+  Used while running tests with `npm run test:ci`
 
 ## Features
 Dependent Tracking:
