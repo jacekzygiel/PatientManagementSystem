@@ -23,7 +23,7 @@ export const testPatientB: Patient = {
     ]
 };
 
-export const testPatientNoAdultDependents = {
+export const testPatientNoAdultDependents: Patient = {
     name: "Marek Kowalski",
     age: 55,
     dependents: [
@@ -33,7 +33,7 @@ export const testPatientNoAdultDependents = {
     ]
 };
 
-export const testPatientNoDependents = {
+export const testPatientNoDependents: Patient = {
     name: "Martyna Cabaj",
     age: 55,
     dependents: []

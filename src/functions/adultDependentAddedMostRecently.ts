@@ -8,6 +8,6 @@ export function adultDependentAddedMostRecently(patient: Patient): Dependent | n
     if (adults.length === 0) {
         return null;
     }
-    return adults.reduce((latest, adult) =>
+    return adults.reduce((latest: Dependent, adult: Dependent) =>
         new Date(latest.added) < new Date(adult.added) ? adult : latest);
 }
